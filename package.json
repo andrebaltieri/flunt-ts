@@ -1,0 +1,30 @@
+{
+  "name": "flunt-ts",
+  "version": "1.0.0",
+  "description": "A fluent validator",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrebaltieri/flunt-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrebaltieri/flunt-ts/issues"
+  },
+  "homepage": "https://github.com/andrebaltieri/flunt-ts#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}
